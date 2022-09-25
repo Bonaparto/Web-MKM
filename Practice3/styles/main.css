@@ -1,0 +1,44 @@
+.main {
+  background-color: #009B77;
+}
+
+.main__list {
+  padding-inline: 40px;
+  color: #3b3b3c;
+}
+
+.main__item { 
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.main__item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.main__item:nth-child(odd) {
+  text-align: right;
+}
+
+.main__text-block {
+  margin-inline: 20px;
+}
+
+.main__heading {
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+
+.main__text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main__image { 
+  min-width: 300px;
+  min-height: 500px;
+  width: 500px;
+  height: 300px;
+}
