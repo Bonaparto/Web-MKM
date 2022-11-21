@@ -1,0 +1,14 @@
+body {
+  padding-inline: 20%;
+}
+
+#loader {
+  height: 20px;
+  border: 3px solid black;
+}
+
+#indicator {
+  width: 0px;
+  height: 100%;
+  background-color: black;
+}

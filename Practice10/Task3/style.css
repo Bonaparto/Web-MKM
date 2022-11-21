@@ -1,0 +1,8 @@
+#authorization {
+  display: flex;
+  flex-direction: column;
+}
+
+#authorization > * {
+  margin-bottom: 10px;
+}

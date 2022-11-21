@@ -44,10 +44,10 @@
       }
 
       if ($_SESSION['isLoggedIn']) {
-        $loginTimeAgo = $_SESSION['loginTime'];
+        $loginTime = $_SESSION['loginTime'];
         echo "<h1>This is menu:)</h1>";
         echo '<button type="button" onclick="">Logout</button>';
-        echo "Вы зашли на сайт " . time() - $loginTimeAgo . " секунд назад";
+        echo "Вы зашли на сайт " . time() - $loginTime . " секунд назад";
       } else {
         echo "<h1>Incorrect data</h1>";
       }
