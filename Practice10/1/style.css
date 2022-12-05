@@ -1,0 +1,10 @@
+#loader {
+  height: 40px;
+  border: 3px solid green;
+}
+
+#line {
+  width: 0px;
+  height: 100%;
+  background-color: green;
+}
