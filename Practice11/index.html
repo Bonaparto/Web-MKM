@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <script src="script.js" charset="utf-8"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css"></link>
-    <title>Basic Tetris</title>
+    <title>Tetris</title>
   </head>
   <body>
 
-    <h3>Score:<span id="score">0</span></h3>
-    <button id="start-button">Start/Pause</button>
+    <h3>
+      Score:
+      <span id="score">0</span>
+    </h3>
+
+    <button id="game-button">Start/Pause</button>
 
     <div class="container">
       <div class="grid">
@@ -224,9 +227,7 @@
         <div class="taken"></div>
         <div class="taken"></div>
       </div>
-
-
-      <div class="mini-grid">
+      <div class="next-figure">
         <div></div>
         <div></div>
         <div></div>
@@ -244,11 +245,6 @@
         <div></div>
         <div></div>
       </div>
-
-
     </div>
-
-
-
   </body>
 </html>
